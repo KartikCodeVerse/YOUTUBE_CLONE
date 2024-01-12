@@ -1,0 +1,51 @@
+.Chenel_logo_App {
+  width: 2.2rem;
+  height: 2.2rem;
+  margin: auto;
+  border-radius: 100%;
+  background-color: rgb(224, 227, 214);
+  display: flex;
+}
+
+.fstChhar_logo_App {
+  margin: auto;
+  font-weight: bolder;
+  cursor: pointer;
+  color: black;
+}
+
+.home_page,
+.history_page,
+.watchlater_page,
+.linkedvideo_page,
+.yourvideo_page,
+.library_page {
+  display: flex;
+  background-color: rgb(19, 19, 19);
+}
+
+.home2_page {
+  width: calc(100vw - 5rem);
+  height: calc(100vh - 3.65rem);
+  border-top: 2px solid rgba(128, 128, 128, 0.48);
+  overflow-y: auto;
+}
+
+.video_box {
+  width: 21rem;
+  height: 17rem;
+  margin-bottom: 1rem;
+  border: 2px solid transparent;
+}
+
+video {
+  background-color: rgba(8, 8, 8, 0.662);
+}
+
+.dot {
+  height: 4px;
+  width: 4px;
+  background-color: white;
+  border-radius: 100%;
+  margin: auto 0.5rem;
+}

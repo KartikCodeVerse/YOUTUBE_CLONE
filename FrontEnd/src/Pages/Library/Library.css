@@ -1,0 +1,29 @@
+.library_cont1 {
+  height: 90vh;
+  width: 100vw;
+  overflow-y: auto;
+}
+
+.library_cont3 {
+  border-bottom: 2px solid grey;
+  padding: 1rem 2rem;
+  color: aliceblue;
+}
+.library_title {
+  margin: 0.5rem 4rem;
+}
+
+.library_title b {
+  margin: auto 0.5rem;
+  padding: auto 0.5rem;
+  font-size: medium;
+}
+
+.videolist_library {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  justify-content: space-around;
+  max-height: 80vh;
+  overflow-x: auto;
+}

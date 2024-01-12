@@ -1,0 +1,58 @@
+.video_upload {
+  position: absolute;
+  background-color: rgba(00, 0, 0, 0.6);
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+  display: flex;
+}
+
+.video_upload2 {
+  box-shadow: 2px 2px 13px 13px rgba(143, 143, 143, 0.681);
+  padding: 1rem;
+  width: fit-content;
+  height: fit-content;
+  background-color: black;
+  color: rgb(136, 133, 129);
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  border-radius: 1rem;
+}
+
+.ibox_vidupload {
+  margin: 0.5rem;
+  font-size: larger;
+  border-radius: 5px;
+  padding: 0.2rem;
+  width: calc(100% - 2rem);
+  color: aliceblue;
+  background-color: transparent;
+}
+
+.ibox_div_vidUpload {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: transparent;
+  width: 100%;
+}
+
+.btn_vidUpload {
+  background-color: black;
+  color: white;
+  font-weight: bolder;
+  border: 2px solid;
+}
+
+.btn_vidUpload:hover {
+  color: orange;
+}
+
+.loader {
+  width: 7rem;
+  height: 7rem;
+  margin: auto;
+}
+
+
