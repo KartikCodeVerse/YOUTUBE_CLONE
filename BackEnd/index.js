@@ -17,7 +17,7 @@ app.use(express.json({ limit: "30mb", extended: true }));
 app.use(express.urlencoded({ limit: "30mb", extended: true }));
 app.use("/uploads", express.static(path.join("uploads")));
 
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 5050;
 const DB_URL = process.env.DB_URL;
 
 app.get("/", (req, res) => {
