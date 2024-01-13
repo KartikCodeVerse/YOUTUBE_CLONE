@@ -46,7 +46,8 @@ const VideoPage = () => {
         <div className="video2_page">
           <div className="video_display">
             <video
-              src={`http://localhost:3000/${video?.filePath}`}
+              // src={`http://localhost:3000/${video?.filePath}`}
+              src={`https://youtubeclone-mern.onrender.com/${video?.filePath}`}
               className="videon"
               controls
               autoPlay

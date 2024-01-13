@@ -29,11 +29,11 @@ const NavBar = ({ setCreateEditChanel, toggleDrawer }) => {
   useEffect(() => {
     function start() {
       gapi.client.init({
-        clientId:
-          "1005193584217-64bjb77jej7arop8uic7gs3cnl2c45fm.apps.googleusercontent.com",
+        clientId: `1005193584217-64bjb77jej7arop8uic7gs3cnl2c45fm.apps.googleusercontent.com`,
         scope: "email",
       });
     }
+
     gapi.load("client:auth2", start);
   }, []);
 

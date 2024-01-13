@@ -9,7 +9,8 @@ const ShowVideo = ({ vid }) => {
       <Link to={`${"/video/" + vid._id}`} className="show_video">
         <video
           className="video_ShowVideo"
-          src={`http://localhost:3000/${vid?.filePath}`}
+          // src={`http://localhost:3000/${vid?.filePath}`}
+          src={`https://youtubeclone-mern.onrender.com/${vid?.filePath}`}
         />
       </Link>
       <div className="show_description">

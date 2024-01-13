@@ -7,7 +7,8 @@ import { setCurrentUser } from "../../Action/CurrentUser";
 import { Link } from "react-router-dom";
 
 const Auth = ({ User, setAuthBtn, setCreateEditChanel }) => {
-  const CLIENT_ID = `${process.env.REACT_APP_CLIENT_ID}`;
+
+  const CLIENT_ID = `1005193584217-64bjb77jej7arop8uic7gs3cnl2c45fm.apps.googleusercontent.com`;
   const dispatch = useDispatch();
   const onLogoutSuccess = () => {
     dispatch(setCurrentUser(null));
